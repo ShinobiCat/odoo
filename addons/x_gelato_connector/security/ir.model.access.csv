@@ -1,2 +1,0 @@
-id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
-access_gelato_connector,Access Gelato Connector,model_x_gelato_connector,model_group_user,1,1,1,1
