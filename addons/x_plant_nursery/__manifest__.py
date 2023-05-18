@@ -14,7 +14,7 @@
         'views/treeview.xml',
         'views/formview.xml',
     ],
-    #'installable': True,
-    #'application': True,
-    #'auto_install': False,
+    'installable': True,
+    'application': True,
+    'auto_install': False,
 }
