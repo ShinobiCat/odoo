@@ -1,11 +1,12 @@
 # Part of Odoo. See LICENSE file for full copyright and licensing details.
 
 {
-    'name': 'Payment Provider: Stripe',
-    'version': '2.0',
+    'name': 'x_paymentlink_stripe',
+    'version': '0.1',
     'category': 'Accounting/Payment Providers',
-    'sequence': 350,
+    #'sequence': 350,
     'summary': "An Irish-American payment provider covering the US and many others.",
+    'description': "Integrate with stripe products to provide custom payment links at checkout",
     'depends': ['payment'],
     'data': [
         'views/payment_provider_views.xml',
