@@ -7,7 +7,7 @@
     'category': 'Extra Tools',
     'summary': 'Import products and place orders from Odoo to Gelato',
     'description': 'Import products and place orders from Odoo to Gelato',
-    'depends': ['base', 'sale', 'website'],
+    'depends': ['account','base', 'sale', 'sale_management', 'website', 'website_sale'],
     'data': [
         'views/gelato_product_view.xml',
         'views/gelato_order_view.xml',
