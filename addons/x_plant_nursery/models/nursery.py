@@ -1,7 +1,7 @@
 from odoo import models, fields
 
-class Plants(models.Model):
-    _name = 'nursery.plants'
+class ModelNurseryPlant(models.Model):
+    _name = 'model_nursery_plant'
 
     name = fields.Char(string='Plant Name')
     price = fields.Float()
