@@ -1,0 +1,3 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_gelato_product,Access Gelato Product,model_gelato_product,base.group_user,1,1,1,1
+access_gelato_order,Access Gelato Order,model_gelato_order,base.group_user,1,1,1,1
