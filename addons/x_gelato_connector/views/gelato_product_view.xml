@@ -1,17 +1,15 @@
-<record id="gelato_product_form_view" model="ir.ui.view">
-    <field name="name">gelato.product.form.view</field>
-    <field name="model">gelato.connector.product</field>
-    <field name="arch" type="xml">
-        <form __validate__="1">
-            <sheet>
-                <group>
-                    <field name="name"/>
-                    <field name="description"/>
-                    <field name="sku"/>
-                    <field name="price"/>
-                    <field name="gelato_product_id"/>
-                </group>
-            </sheet>
-        </form>
-    </field>
-</record>
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <record id="gelato_product_form_view" 
+model="ir.ui.view">
+        <field name="name">gelato.product.form.view</field>
+        <field name="model">gelato.connector.product</field>
+        <field name="arch" type="xml">
+        <field name="name"/>
+        <field name="description"/>
+        <field name="sku"/>
+        <field name="price"/>
+        <field name="gelato_product_id"/>
+        </field>
+    </record>
+</odoo>
