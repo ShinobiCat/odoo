@@ -1,8 +1,8 @@
 {
     'name': 'Odoo Gelato Connector',
     'version': '0.1',
-    'author': 'ShinobiCat',
-    'license': 'AGPL-3',
+    'author': 'Croak',
+    'license': 'LGPL-3',
     'website': 'https://github.com/ShinobiCat/odoo/tree/16.0/addons/x_gelato_connector',
     'category': 'Extra Tools',
     'summary': 'Import products and place orders from Odoo to Gelato',
