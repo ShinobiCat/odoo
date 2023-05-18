@@ -1,8 +1,8 @@
 from odoo import models, fields
 
-class GelatoProduct(models.Model):
-    _name = 'gelato.product'
-    _description = 'Gelato Product'
+class GelatoConnectorProduct(models.Model):
+    _name = 'gelato.connector.product'
+    _description = 'Gelato Connector Product'
 
     name = fields.Char(string='Name', required=True)
     description = fields.Text(string='Description')
