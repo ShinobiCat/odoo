@@ -9,7 +9,7 @@
     'description': 'Odoo app to import products from Gelato and place orders with Gelato',
     'depends': ['base', 'sale_management'],
     'data': [
-        'security/ir.model.access.csv',
+    #    'security/ir.model.access.csv',
         'views/gelato_product_view.xml',
         'views/gelato_order_view.xml',
     ],
