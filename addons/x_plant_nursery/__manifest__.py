@@ -11,9 +11,10 @@
     'data': [
         'security/ir.model.access.csv',
         'data/data.xml',
-        'views/views.xml',
+        'views/treeview.xml',
+        'views/formview.xml',
     ],
-    'installable': True,
-    'application': True,
-    'auto_install': False,
+    #'installable': True,
+    #'application': True,
+    #'auto_install': False,
 }
