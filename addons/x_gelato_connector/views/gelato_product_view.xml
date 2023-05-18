@@ -1,0 +1,21 @@
+<odoo>
+    <data>
+        <record model="ir.ui.view" id="gelato_product_form_view">
+            <field name="name">gelato.product.form.view</field>
+            <field name="model">gelato.product</field>
+            <field name="arch" type="xml">
+                <form>
+                    <sheet>
+                        <group>
+                            <field name="name"/>
+                            <field name="description"/>
+                            <field name="sku"/>
+                            <field name="price"/>
+                            <field name="gelato_product_id" readonly="1"/>
+                        </group>
+                    </sheet>
+                </form>
+            </field>
+        </record>
+    </data>
+</odoo>
