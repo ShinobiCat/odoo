@@ -1,7 +1,7 @@
 <odoo>
   <data>
     <!-- explicit list view definition -->
-<!--
+
     <record model="ir.ui.view" id="x_gelato_connector.list">
       <field name="name">x_gelato_connector list</field>
       <field name="model">x_gelato_connector.x_gelato_connector</field>
@@ -13,19 +13,19 @@
         </tree>
       </field>
     </record>
--->
+
 
     <!-- actions opening views on models -->
-<!--
+
     <record model="ir.actions.act_window" id="x_gelato_connector.action_window">
       <field name="name">x_gelato_connector window</field>
       <field name="res_model">x_gelato_connector.x_gelato_connector</field>
       <field name="view_mode">tree,form</field>
     </record>
--->
+
 
     <!-- server action to the one above -->
-<!--
+
     <record model="ir.actions.server" id="x_gelato_connector.action_server">
       <field name="name">x_gelato_connector server</field>
       <field name="model_id" ref="model_x_gelato_connector_x_gelato_connector"/>
@@ -38,23 +38,23 @@
         }
       </field>
     </record>
--->
+
 
     <!-- Top menu item -->
-<!--
+
     <menuitem name="x_gelato_connector" id="x_gelato_connector.menu_root"/>
--->
+
     <!-- menu categories -->
-<!--
+
     <menuitem name="Menu 1" id="x_gelato_connector.menu_1" parent="x_gelato_connector.menu_root"/>
     <menuitem name="Menu 2" id="x_gelato_connector.menu_2" parent="x_gelato_connector.menu_root"/>
--->
+
     <!-- actions -->
-<!--
+
     <menuitem name="List" id="x_gelato_connector.menu_1_list" parent="x_gelato_connector.menu_1"
               action="x_gelato_connector.action_window"/>
     <menuitem name="Server to list" id="x_gelato_connector" parent="x_gelato_connector.menu_2"
               action="x_gelato_connector.action_server"/>
--->
+
   </data>
 </odoo>
