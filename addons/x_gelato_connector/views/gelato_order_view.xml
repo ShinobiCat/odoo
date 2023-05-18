@@ -1,20 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <odoo>
-    <data>
-        <record model="ir.ui.view" id="gelato_order_form_view">
-            <field name="name">gelato.order.form.view</field>
-            <field name="model">gelato.order</field>
-            <field name="arch" type="xml">
-                <form>
-                    <sheet>
-                        <group>
-                            <field name="name"/>
-                            <field name="status"/>
-                            <field name="gelato_order_id" readonly="1"/>
-                            <field name="product_ids" widget="many2many_tags"/>
-                        </group>
-                    </sheet>
-                </form>
-            </field>
-        </record>
-    </data>
+    <record model="ir.ui.view"
+id="gelato_order_form_view">
+        <field name="name">gelato.order.form.view</field>
+        <field name="model">gelato.order</field>
+        <field name="arch" type="xml">
+        <field name="name"/>
+        <field name="status"/>
+        <field name="gelato_order_id" readonly="1"/>
+        <field name="product_ids" widget="many2many_tags"/>
+        </field>
+    </record>
 </odoo>
